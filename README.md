@@ -1,6 +1,9 @@
 # piwik
 
-* custom code
+* tracking javascript
+https://developer.piwik.org/guides/tracking-javascript-guide
+
+* custom code for js-file in other servers
 
 ```javascript
 <!-- Piwik -->
@@ -23,3 +26,17 @@
 <!-- End Piwik Code -->
 
 ```
+* Database schema
+https://developer.piwik.org/guides/persistence-and-the-mysql-backend
+
+* proxy
+https://piwik.org/faq/how-to-install/faq_98/
+
+* Installation Q&A
+https://piwik.org/faq/how-to-install/
+
+* tracking-api
+https://developer.piwik.org/api-reference/tracking-api
+
+* Tracking API Clients
+https://developer.piwik.org/guides/tracking-api-clients
