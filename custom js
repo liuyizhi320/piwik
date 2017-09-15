@@ -1,6 +1,5 @@
-Some basic Git commands are:
 ```
-git status
-git add
-git commit
+function test() {
+  console.log("notice the blank line before this function?");
+}
 ```
