@@ -38,5 +38,5 @@ https://piwik.org/faq/how-to-install/
 * tracking-api
 https://developer.piwik.org/api-reference/tracking-api
 
-* Tracking API Clients
+* Tracking API Clients SDK FOR IOS AND ANDROID
 https://developer.piwik.org/guides/tracking-api-clients
