@@ -40,3 +40,8 @@ https://developer.piwik.org/api-reference/tracking-api
 
 * Tracking API Clients SDK FOR IOS AND ANDROID
 https://developer.piwik.org/guides/tracking-api-clients
+
+* How do I select IP addresses or Visitor ID directly from the database?<br>
+````sql
+SELECT inet_ntoa(conv(hex(location_ip), 16, 10)) as ip, conv(hex(idvisitor), 16, 10) as visitorId FROM piwik_log_visit;
+````
