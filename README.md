@@ -48,3 +48,6 @@ inet_ntoa(conv(hex(location_ip), 16, 10)) as ip,
 conv(hex(idvisitor), 16, 10) as visitorId 
 FROM piwik_log_visit;
 ````
+
+* user id
+https://developer.matomo.org/guides/tracking-javascript-guide#user-id
